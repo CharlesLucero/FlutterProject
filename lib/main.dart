@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:maya/screens/startpage.dart';
-import 'package:maya/screens/loginpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.amber),
-      home: const Loginpage(),
+      home: const StartPage(),
     );
   }
 }
